@@ -1,0 +1,24 @@
+.thumbnail {
+    width: 70px;
+    height: auto;
+}
+
+.hthumbnail {
+    width: 100px;
+    height: auto;
+}
+
+.cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}

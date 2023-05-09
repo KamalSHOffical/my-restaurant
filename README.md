@@ -1,6 +1,6 @@
 # Kamal's Restaurant 🍝
 
-![main](https://media.houseandgarden.co.uk/photos/626bae2b6fc29fccf7658b2a/3:2/w_3000,h_2000,c_limit/220311_Lisboeta0739_039_+R2_Lights_HiRes.jpg)
+changes
 
 Welcome to my restaurant!
 You can explore the menu [here](#menu)

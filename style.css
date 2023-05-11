@@ -22,3 +22,234 @@
     width: 200px;
     height: 200px;
 }
+
+.bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.center .bar {
+    display: inline-block;
+    width: auto
+}
+
+.bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.border {
+    border: 1px solid #ccc !important
+}
+
+.container,
+.panel {
+    padding: 0.01em 16px
+}
+
+.panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.light-grey,
+.hover-light-grey:hover,
+.light-gray,
+.hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.w3-yellow,
+.w3-hover-yellow:hover {
+    color: #fff !important;
+    background-color: #746a00 !important
+}
+
+.wwhite,
+.hover-wwhite:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif
+}
+
+.button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.center {
+    text-align: center !important;
+    justify-content: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.row-padding,
+.row-padding>.half,
+.row-padding>.third,
+.row-padding>.twothird,
+.row-padding>.threequarter,
+.row-padding>.quarter,
+.row-padding>.col {
+    padding: 0 8px
+}
+
+.fifth {
+    width: 20%
+}
+
+.margin {
+    margin: 16px !important
+}
+
+.margin-top {
+    margin-top: 16px !important
+}
+
+.margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.margin-left {
+    margin-left: 16px !important
+}
+
+.margin-right {
+    margin-right: 16px !important
+}
+
+.container:after,
+.container:before,
+.panel:after,
+.panel:before,
+.row:after,
+.row:before,
+.row-padding:after,
+.row-padding:before,
+.cell-row:before,
+.cell-row:after,
+.clear:after,
+.clear:before,
+.bar:before,
+.bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.col,
+.half,
+.third,
+.twothird,
+.threequarter,
+.quarter {
+    float: left;
+    width: 100%
+}
+
+.col.s1 {
+    width: 8.33333%
+}
+
+.col.s2 {
+    width: 16.3%
+}
+
+.col.s3 {
+    width: 24.99999%
+}
+
+.col.s4 {
+    width: 33.33333%
+}
+
+.col.s5 {
+    width: 41.66666%
+}
+
+.col.s6 {
+    width: 49.99999%
+}
+
+.col.s7 {
+    width: 58.33333%
+}
+
+.col.s8 {
+    width: 66.66666%
+}
+
+.col.s9 {
+    width: 74.99999%
+}
+
+.col.s10 {
+    width: 83.33333%
+}
+
+.col.s11 {
+    width: 91.66666%
+}
+
+.col.s12 {
+    width: 99.99999%
+}
+
+body {
+    background-color: floralwhite;
+}
+
+.bg-img {
+    background-image: url(https://www.centonzerestaurant.com/resourcefiles/homeimages/centonze.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.font0 {
+    font-family: Sofia, cursive;
+    font-size: 20px;
+}
+
+.font1 {
+    font-family: "Lobster", serif;
+}
+
+.font2 {
+    font-family: Roboto, sans-serif;
+}

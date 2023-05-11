@@ -8,46 +8,57 @@
     <meta name="author" content="Kamal Shawer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>About us</title>
 </head>
 
 <body>
     <!--Header content-->
+    <!--Header content-->
     <header>
-        <h1><img class="logo" src="./assets/logo.png" /> Kamal's Restaurant 🍝</h1>
+        <div class="bar light-grey">
+            <h1 class="center font0" style="font-size: xx-large;"><img class="logo" src="./assets/logo.png" /> Kamal's Restaurant 🍝</h1>
+        </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <div class="bar border light-grey">
+            <a href="index.html" class="bar-item button">Home</a>
+            <a href="about.html" class="bar-item button w3-yellow">About</a>
+        </div>
+
     </nav>
-    <img src="https://www.centonzerestaurant.com/resourcefiles/homeimages/centonze.jpg"
-            style="width:100%; height: 400px;" />
-            <br/>
 
     <!--Main content-->
-    <article>
-        <div style="text-align: center;">
-            <h1>About</h1>
-            <img src="./assets/profile.jpeg" class="profile" />
-            <p>
-                Hi, My name is Kamal Adel Ahmad Shawer!
-            </p>
-            <p>
-                I recently graduated from Mutah university with Bachelor degree in computer engineering.
-            </p>
-            <p>
-                I've decided to open my own restaurant located in --- street!
-                Hope you enjoy my delicous meals 😋🤤
-            </p>
+    <article class="center">
+
+        <div style="display: flex;justify-content: space-around;">
+            <div class="card light-grey margin-top">
+                <h2 class="center font0" style="font-size: xx-large;">About</h2>
+                <img src="./assets/profile.jpeg" style="width:200px">
+                <div class="container">
+                    <div class="left">
+                        <p class="font1">
+                            Hi, My name is Kamal Adel Ahmad Shawer!
+                        </p>
+                        <p class="font2">
+                            I recently graduated from Mutah university with Bachelor degree in computer engineering.
+                        </p>
+                        <p class="font2">
+                            I've decided to open my own restaurant located in --- street!
+                            Hope you enjoy my delicous meals 😋🤤
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
     <br />
 
     <!--Footer content-->
     <footer>
-        <span>Copyright Kamal's restaurant 🍝 © 2023 All rights reserved</span>
+        <div class="light-grey border font0"> Copyright Kamal's restaurant 🍝 © 2023 All rights reserved</div>
     </footer>
 
 

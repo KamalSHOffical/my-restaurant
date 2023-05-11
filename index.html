@@ -8,135 +8,229 @@
     <meta name="author" content="Kamal Shawer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>Kamal's Restaurant 🍝</title>
 </head>
 
 <body>
     <!--Header content-->
     <header>
-        <h1><img class="logo" src="./assets/logo.png"/> Kamal's Restaurant 🍝</h1>
+        <div class="bar light-grey">
+            <h1 class="center font0" style="font-size: xx-large;"><img class="logo" src="./assets/logo.png" /> Kamal's Restaurant 🍝</h1>
+        </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <div class="bar border light-grey">
+            <a href="index.html" class="bar-item button w3-yellow">Home</a>
+            <a href="about.html" class="bar-item button">About</a>
+        </div>
+
     </nav>
-    <img src="https://www.centonzerestaurant.com/resourcefiles/homeimages/centonze.jpg"
-            style="width:100%; height: 400px;" />
-            <br/>
 
     <!--Main content-->
-    <article>
-            <h2>Contact info</h2>
-            <div>
-                <img src="./assets/phone.png" class="logo"/> +962 78 295 3996
+    <article class="center" >
+        <div  style="display: flex;justify-content: center;">
+            <div class="card light-grey margin-top">
+                <h2 class="center font0" style="font-size: xx-large;" >Contact info</h2>
+                <img src="./assets/phone.png" style="width:200px">
+                <div class="container">
+                    <div class="left">
+                        <img src="./assets/phone.png" class="logo" /> +962 78 295 3996
+                    </div>
+                    <div class="left">
+                        <img src="./assets/email.png" class="logo" /> kamalshawer2016@gmx.com
+                    </div>
+                    <div class="left">
+                        <img src="./assets/github.png" class="logo" /> /KamalSHOffical
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./assets/email.png" class="logo"/> kamalshawer2016@gmx.com
+        </div>
+
+
+
+        <h2 class="font0" style="font-size: xx-large;">Menu</h2>
+
+        <div class="row-padding margin-top margin-left">
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/hummus.png" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Appetizers</h5>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./assets/github.png" class="logo"/> /KamalSHOffical
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/hummus2.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Hummus</h5>
+                    </div>
+                </div>
             </div>
-        <h2>Menu</h2>
-        <table style="width:100%">
-            <tr>
-                <th class="cell">
-                    <img class="hthumbnail" src="./assets/hummus.png" /> 
-                    <p>Appetizers</p>
-                </th>
-                <th class="cell">
-                    <img class="hthumbnail" src="./assets/mainc.png" /> 
-                    <p>Main courses</p>
-                </th>
-                <th class="cell">
-                    <img class="hthumbnail" src="./assets/burger.png" /> 
-                    <p>Burgers</p>
-                </th>
-                <th class="cell">
-                    <img class="hthumbnail" src="./assets/juice.png" /> 
-                    <p>Beverages</p>
-                </th>
-            </tr>
-            <tr>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/hummus2.jpeg" /> 
-                    <p>Hummus</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/mansaf.jpeg" /> 
-                    <p>Mansaf</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/burg.jpeg" /> 
-                    <p>Cheese burger</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/water.jpeg" /> 
-                    <p>Water</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/falafel.jpeg" /> 
-                    <p>Falafel</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/maqlouba.jpeg" /> 
-                    <p>Maqluba</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/mix.jpeg" /> 
-                    <p>Mix burger</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/cola.png" /> 
-                    <p>Cola</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/babag.jpeg" /> 
-                    <p>Baba ganoush</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/kabsa.jpeg" /> 
-                    <p>Kabsa</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/mexi.jpeg" /> 
-                    <p>Mexican burger</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/tail.jpeg" /> 
-                    <p>Cocktail</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/tabo.jpeg" /> 
-                    <p>Tabouleh</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/bukh.jpeg" /> 
-                    <p>Bukhari</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/mush.jpeg" /> 
-                    <p>Mushroom burger</p>
-                </td>
-                <td class="cell">
-                    <img class="thumbnail" src="./assets/coffee.jpeg" /> 
-                    <p>Coffee</p>
-                </td>
-            </tr>
-        </table>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/falafel.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Falafel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/babag.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Baba ganoush</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/tabo.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Tabouleh</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row-padding margin-top margin-left">
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/mainc.png" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Main courses</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/mansaf.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Mansaf</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/maqlouba.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Maqluba</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/kabsa.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Kabsa</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/bukh.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Bukhari</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row-padding margin-top margin-left">
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/burger.png" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Burgers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/burg.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Cheese burger</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/mix.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Mix burger</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/mexi.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Mexican burger</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/mush.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Mushroom burger</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row-padding margin-top margin-left">
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/juice.png" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Beverages</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/water.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Water</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/cola.png" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Cola</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/tail.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Cocktail</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card light-grey">
+                    <img src="./assets/coffee.jpeg" style="width:100%; height: 250px;">
+                    <div class="container">
+                        <h5>Coffee</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
     </article>
-    <br/>
+    <br />
 
     <!--Footer content-->
     <footer>
-        <span>Copyright Kamal's restaurant 🍝 © 2023 All rights reserved</span>
+        <div class="light-grey border font0"> Copyright Kamal's restaurant 🍝 © 2023 All rights reserved</div>
     </footer>
 
 
